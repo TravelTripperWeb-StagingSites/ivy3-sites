@@ -1,7 +1,8 @@
 # [TTWeb CMS Blank Hotel Site Template](https://github.com/TravelTripperWeb-Sites/blank-template)
 
 This is a starting point for new ttweb sites that use
-* bedrock
+* bedrock template
+* conversion-plus template
 * zom CSS/JS framework
 
 :sparkles: See what's new in the [CHANGELOG](CHANGELOG.md).
