@@ -12,6 +12,8 @@ Overall changes:
 * created default _data/_cms_config/content_nav.yml file for configuring CMS menu
 * create layouts for CMS and dynamic rooms and offers
 * remove required setting for most fields in most models
+* changed CSS import to handle bedrock themes
+* change config.yml to handle bedrock themes
 
 ### New Deafult Layout
 
@@ -31,5 +33,15 @@ The default page list now includes an offers list, offer detail, rooms list and 
 * Rooms/Offers content needs to be translated into multiple languages
 * Rooms/Offers content needs to be reused in various places on the site in complex ways.
 * SEO performance for dynamic rooms/offers content becomes an issue
+
+
+### Using themes
+
+For now to switch themes you'll need to make 5 updates
+
+* in _config.yml change all the references to theme folder, replacing 'none' with 'hg01' in the 4 relevant paths
+* in _sass/_theme-selection.scss change 'none' to 'hg01' in 1 line
+
+This will be an option in the CMS in the future.
 
 
