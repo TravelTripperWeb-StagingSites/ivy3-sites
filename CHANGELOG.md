@@ -14,8 +14,15 @@ Overall changes:
 * remove required setting for most fields in most models
 * changed CSS import to handle bedrock themes
 * change config.yml to handle bedrock themes
+* removed gallery layout (just use generic page and add a gallery picker region)
 
-### New Deafult Layout
+### Note:
+
+The _includes/components files may be used as-is and styled to fit the needs of the site. However they're intended as "maximal" examples and it's generally recommended you override these files to display the fields and HTML structure you need.
+
+When using a them, the files in _includes/components are more intended to be used directly without need for modification as they are already designed to work for the given theme.
+
+### New Default Layout
 
 Includes many more entry points so default layout can be customized globally without having to override the entire layout.
 
