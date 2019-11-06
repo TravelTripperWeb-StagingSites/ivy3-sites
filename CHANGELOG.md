@@ -16,6 +16,9 @@ Overall changes:
 * change config.yml to handle bedrock themes
 * removed gallery layout (just use generic page and add a gallery picker region)
 * added default settings_nav file - use this to manage whether BRG or CP settings are shown
+* updated JS compilation to use webpack
+* node package updates for security
+* add accessibility to attractions map
 
 ### Note:
 
