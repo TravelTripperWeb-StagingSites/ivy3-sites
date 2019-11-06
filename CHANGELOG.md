@@ -15,6 +15,7 @@ Overall changes:
 * changed CSS import to handle bedrock themes
 * change config.yml to handle bedrock themes
 * removed gallery layout (just use generic page and add a gallery picker region)
+* added default settings_nav file - use this to manage whether BRG or CP settings are shown
 
 ### Note:
 

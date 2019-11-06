@@ -20,6 +20,7 @@ items:
         label: Categories
       - id: post_tags
         label: Tags
+  # - id: conversion_plus_messages
   - id: events
   - id: dining
   - id: __galleries__
