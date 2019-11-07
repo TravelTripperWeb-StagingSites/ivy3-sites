@@ -3,6 +3,7 @@
     "en": "AAA ",
     "es": "Bed and Breakfast "
   },
+  
   "short_description_localized": {
     "en": "Includes continental breakfast ",
     "es": "Includes continental breakfast "
@@ -35,9 +36,12 @@
     }
   ],
   "reztrip_offer_id": "DSAAA",
-  "order": 1,
+  "order": 2,
   "featured": true,
-  "featured_order": 1,
+  "featured_order": 2,
+  "addons": [
+    "b"
+  ],
   "image": {
     "name": "Bed-and-Breakfast--Continental-Breakfast---Lounge-",
     "content_type": null,

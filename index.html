@@ -8,6 +8,11 @@ meta_tags:
   robots:
 ---
 
+{% comment %}
+Example for using CMS to specify featured offer items by code. Use this component but pass in an offer_codes list (in a comma separated string) that comes from CMS content entry
+{% endcomment %}
+{% include components/offer/specific-featured-list offer_codes="NONREF, BBKG" %}
+
 <section class='container'>
   <div class='row'>
     <div class='col '>
@@ -16,3 +21,4 @@ meta_tags:
     </div>
   </div>
 </section>
+

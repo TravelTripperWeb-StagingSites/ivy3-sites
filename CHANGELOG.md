@@ -9,8 +9,9 @@ Overall changes:
 * rename rt3api.min.js to cp.min.js
 * rename conversion_plus settings to conversion_plus_banner settings
 * rename ttweb_plugins settings to conversion_plus settings
+* add RVNG settings options
 * created default _data/_cms_config/content_nav.yml file for configuring CMS menu
-* create layouts for CMS and dynamic rooms and offers
+* create layouts for CMS and dynamic rooms and offers (including featured sub-lists)
 * remove required setting for most fields in most models
 * changed CSS import to handle bedrock themes
 * change config.yml to handle bedrock themes
@@ -19,6 +20,10 @@ Overall changes:
 * updated JS compilation to use webpack
 * node package updates for security
 * add accessibility to attractions map
+* siteindex.json files (for searches) with LoadSiteIndex function and basic search page implementation
+* LoastPostsIndex function and basic posts.json usage implementation (load-more action)
+* update SEO to allow for explicit vs title-partials
+* update page-gen to allow for SEO fields (meta.meta_tile, .meta_title_prefix, .meta_description)
 
 ### Note:
 
@@ -53,6 +58,6 @@ For now to switch themes you'll need to make 5 updates
 * in _config.yml change all the references to theme folder, replacing 'none' with 'hg01' in the 4 relevant paths
 * in _sass/_theme-selection.scss change 'none' to 'hg01' in 1 line
 
-This will be an option in the CMS in the future.
+There will be a way to automate this via the CMS in the future
 
 
