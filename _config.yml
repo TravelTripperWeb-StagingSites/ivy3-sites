@@ -10,6 +10,8 @@ repository: # GitHub username/repo-name e.g. "TravelTripperWeb/bedrock"
 default_lang: 'en'
 languages: ['en', 'es']
 
+generate_siteindex: false
+
 # Reading Files
 include:
   - _ttio_templates
