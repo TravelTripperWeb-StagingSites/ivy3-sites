@@ -120,22 +120,22 @@ plugins_dir:
 - _plugins
 i18n_dir:
 - _ttio_templates/bedrock/_locales
-- _ttio_templates/bedrock/_themes/hg01/_locales
+- _ttio_templates/bedrock/_themes/none/_locales
 - _ttio_templates/conversion-plus/_locales
 - _locales
 layouts_dir:
 - _ttio_templates/bedrock/_layouts
-- _ttio_templates/bedrock/_themes/hg01/_layouts
+- _ttio_templates/bedrock/_themes/none/_layouts
 - _ttio_templates/conversion-plus/_layouts
 - _layouts
 data_dir:
 - _ttio_templates/bedrock/_data
-- _ttio_templates/bedrock/_themes/hg01/_data
+- _ttio_templates/bedrock/_themes/none/_data
 - _ttio_templates/conversion-plus/_data
 - _data
 includes_dir:
 - _includes
 - _ttio_templates/conversion-plus/_includes
-- _ttio_templates/bedrock/_themes/hg01/_includes
+- _ttio_templates/bedrock/_themes/none/_includes
 - _ttio_templates/bedrock/_includes
 
